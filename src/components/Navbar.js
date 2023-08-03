@@ -4,7 +4,9 @@ import PropTypes from 'prop-types'
 export default function Navbar(props) {
 
     return (
+      <>
     <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
+    <div className="container-fluid">
     <a className="navbar-brand" href="#">
       {props.title}
     </a>
@@ -20,19 +22,19 @@ export default function Navbar(props) {
       <span className="navbar-toggler-icon"></span>
     </button>
 
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item active">
           <a  className="nav-link" href="/">
             Home <span className="sr-only">(current)</span>
           </a>
-        </li>
+        </li> */}
         {/* <li className="nav-item">
           <Link className="nav-link" to="/about">{props.aboutText}            
           </Link>
         </li> */}
         
-      </ul>
+      {/* </ul> */}
       {/*} <form className="form-inline my-2 my-lg-0">
         <input
           className="form-control mr-sm-2"
@@ -52,8 +54,11 @@ export default function Navbar(props) {
   <label className="form-check-label" htmlFor="flexSwitchCheckDefault">{props.mode === 'light'?'DarkMode':'LightMode'}</label>
 </div>
 
+    {/* </div> */}
     </div>
+    
   </nav>
+  </>
   )
 }
 

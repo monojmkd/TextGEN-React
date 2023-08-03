@@ -51,16 +51,16 @@ export default function TextForm(props) {
             rows="5"
           ></textarea>
         </div>
-        <button className="btn btn-primary" onClick={handleOnClick}>
+        <button className="btn btn-primary mt-1 " onClick={handleOnClick}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-info ml-3 " onClick={handleOnClick2}>
+        <button className="btn btn-info ml-3 mt-1  " onClick={handleOnClick2}>
           Convert to LowerCase
         </button>
-        <button className="btn btn-warning ml-3 " onClick={handleOnClickdel}>
+        <button className="btn btn-warning ml-3 mt-1 " onClick={handleOnClickdel}>
           Clear
         </button>
-        <button onClick={speak} className="btn btn-success ml-3">
+        <button onClick={speak} className="btn btn-success ml-3 mt-1 ">
           {" "}
           <span id="speak" className="material-icons">
             record_voice_over
