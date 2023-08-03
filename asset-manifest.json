@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/textgen-react/static/css/main.afaeaa0b.css",
-    "main.js": "/textgen-react/static/js/main.70415c8d.js",
+    "main.js": "/textgen-react/static/js/main.a841d894.js",
     "static/js/787.1c56c84e.chunk.js": "/textgen-react/static/js/787.1c56c84e.chunk.js",
     "index.html": "/textgen-react/index.html",
     "main.afaeaa0b.css.map": "/textgen-react/static/css/main.afaeaa0b.css.map",
-    "main.70415c8d.js.map": "/textgen-react/static/js/main.70415c8d.js.map",
+    "main.a841d894.js.map": "/textgen-react/static/js/main.a841d894.js.map",
     "787.1c56c84e.chunk.js.map": "/textgen-react/static/js/787.1c56c84e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afaeaa0b.css",
-    "static/js/main.70415c8d.js"
+    "static/js/main.a841d894.js"
   ]
 }
