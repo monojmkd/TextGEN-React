@@ -1,9 +1,8 @@
 import "./App.css";
-// import About from "./components/About";
 import Navbar from "./components/Navbar";
 import React, { useState } from "react";
 import TextForm from "./components/TextForm";
-// import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
+
 
 function App() {
   const [mode, setmode] = useState("light");
@@ -22,18 +21,12 @@ function App() {
   };
   return (
     <>
-     {/* <Router> */}
+
       <Navbar title="TextGEN" mode={mode} toggleMode={toggleMode} aboutText={'About'}/>
       <div className="container my=3">
-      {/* <Routes>
-      <Route exact path="/about" element={<About />}/>       */} 
-       {/* <Route exact path="/" element={   */}
-
       <TextForm mode={mode} heading="Enter text to change case :" />
-      {/* }/> */}
-  {/* </Routes>  */}
       </div>
-     {/*  </Router>  */}
+
     </>
   );
 }
